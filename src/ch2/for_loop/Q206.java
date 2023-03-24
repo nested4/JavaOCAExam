@@ -1,6 +1,8 @@
 package ch2.for_loop;
 
 public class Q206 {
+	private static int e;
+
 	public static void main(String[] args) {
 
 
@@ -9,7 +11,7 @@ public class Q206 {
 			System.out.println(a[e]);
 		}
 	}
-}
+
 /*
 206. which option can replace xxx to enable the code to print 135?
 A  int e=0; e<=4; e++

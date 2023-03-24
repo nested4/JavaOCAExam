@@ -25,7 +25,7 @@ Answer: A
  	1: usage: String[] args, String args[] or String... args >> All usages are ok
  	2: variable name: args (any other names are ok)
  	3: variable type: String array
-		All kind of entry: number, string, character => String
+		All kind of entry: number, String, character => String
 			123, bank, #
 	4:values: were read in (arguments) when the JVM started 
 
@@ -36,8 +36,8 @@ Answer: A
 	
 3: argument separator: space. !! in quotes "" can be spaces but they are ignored
 	Single (') or double (") quotes can be used to enclose arguments that contain whitespace characters
- 	java myfile zeliha gormez 2345 >> 3 arguments
-	java myfile "zeliha gormez" 2345 >> 2 arguments
+ 	java myfile my name  2345 >> 3 arguments
+	java myfile "my name" 2345 >> 2 arguments
 
 4: That’s right: array indexes begin with 0 in Java. 
  	args[0] accesses the first element of the array.

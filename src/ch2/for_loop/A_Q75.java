@@ -7,7 +7,7 @@ public class A_Q75 {
 		for( ii=0; ii<jj; ii+=2) { 
 			System.out.print(ii+" ");
 		}
-		System.out.println(ii);
+		System.out.println();
 		}
 }
 

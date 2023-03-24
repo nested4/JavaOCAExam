@@ -8,7 +8,7 @@ public class scope_test {
 		for (int iterator = 0; iterator<=10;iterator++) {
 			System.out.println(iterator); //in scope
 		}
-		iterator ++;// out of scope
+	//	iterator ++;// out of scope
 		
 		
 		// Simple bracket example		
@@ -16,7 +16,7 @@ public class scope_test {
 			int numberInBrackets = 0;
 			numberInBrackets = 2; //in scope
 		}
-		numberInBrackets =1; // out of scope
+//		numberInBrackets =1; // out of scope
 	}
 
 }

@@ -15,6 +15,7 @@ package ch1.mainFunc;
  */	 
 
 /***** NOTES
+ * .class means compiled file
  Explanation:
 Java bytecodes help make "write once, run anywhere" possible. 
 You can compile your program into bytecodes on any platform that has a Java compiler. 

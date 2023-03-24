@@ -1,6 +1,9 @@
 package ch1.packages.q198.market;
 
 
+import ch1.packages.q198.sales.SalesMan;
+import ch1.packages.q198.sales.products.Product;
+
 //insert code
 public class USMarket {
 	SalesMan sm;

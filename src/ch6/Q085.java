@@ -1,6 +1,6 @@
 package ch6;
 
-class MyException extends RuntimeException {}
+//class MyException extends RuntimeException {}
 public class Q085 {
 	public static void main(String[] args) {
 

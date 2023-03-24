@@ -1,13 +1,13 @@
 package ch1.packages.q185.p3;
 
 //line n2
-public class C {
-	public static void main(String[] args) {
-		A o1=new A();
-		B o2=new B();
-	}
-
-}
+//public class C {
+//	public static void main(String[] args) {
+//		A o1=new A();
+//		B o2=new B();
+//	}
+//
+//}
 
 /*185. Which modification enables the code to compile?
 
@@ -33,7 +33,7 @@ D. Replace line n1 with:
  */
 
 /***** NOTES
-1:	import needed package to access class A und class B
+1:	import needed package to access class A and class B
 
 !! Attention to wildcards
 *******/

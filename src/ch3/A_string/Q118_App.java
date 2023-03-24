@@ -8,7 +8,8 @@ public class Q118_App {
 
         {   
             System.out.println("Equal");
-        }else{
+        }
+        {
             System.out.println("Not Equal");
         }
     }

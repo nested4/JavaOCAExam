@@ -29,7 +29,7 @@ C.	c= 0
 	b = false
 	f = 0.0f
 
-D.	c= null
+D.	c= null                    // Character is an object default value is Null, char NUL or empthy
 	b = false
-	f = 0.0F
+	f = 0.0
 */

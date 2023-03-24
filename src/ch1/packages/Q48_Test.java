@@ -40,6 +40,12 @@ Since you didn’t tell Java where to look for any other class, it has no clue.
 
 -Ordering Elements in a Class, Table 1.4, p.34
 
+ Package declaration package abc; 			First line in the file
+ Import statements import java.util.*; 		Immediately after the package
+ Class declaration public class C 			Immediately after the import
+ Field declarations int value;		 		Anywhere inside a class
+ Method declarations void method()			Anywhere inside a class
+
 !!! We can put comments anywhere, and white characters (spaces, tab, new line ...) are ignored in byte code
 
 * Chapter 7. Packages

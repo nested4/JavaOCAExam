@@ -7,7 +7,7 @@ public class Q218_App {
         //line n1
         {   
             System.out.println("Equal");
-        }else{
+        }{
             System.out.println("Not Equal");
         }
     }

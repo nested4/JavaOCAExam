@@ -5,10 +5,10 @@ public class Q140 {
 		float fVar = 100.100f;
 		double dVar = 123;
 		fVar = iVar;
-		iVar = fVar; 			//Type mismatch: cannot convert from float to int 
-		fVar = dVar;			//Type mismatch: cannot convert from double to float
+//		iVar = fVar; 			//Type mismatch: cannot convert from float to int
+//		fVar = dVar;			//Type mismatch: cannot convert from double to float
 		dVar = fVar;
-		iVar = dVar;			//Type mismatch: cannot convert from double to int
+//		iVar = dVar;			//Type mismatch: cannot convert from double to int
 		dVar = iVar;
 	}
 }

@@ -5,7 +5,7 @@ public class B_Q122 {
 
 		Short s1 = 200; 
 		Integer s2 = 400;
-		String s3 = (String)(s1+s2);		//line n1 
+//		String s3 = (String)(s1+s2);		//line n1
 		Long s4 = (long) s1+s2; 			//line n2
 		System.out.println("Sum is " + s4);
 	}
@@ -22,6 +22,6 @@ E. A ClassCastException is thrown at line n2.
  */
 
 /*** NOTES
-lıne n2: wrapper oldugu icin casting sart. primitive olsaydi casting e gerek yoktu
+lıne n2: since wrapper class manual casting needed. if it were primitive there wouldnnot be casting
 	long s4 =  s1+s2; 
 *****/

@@ -4,7 +4,7 @@ package ch1.packages.q185.p1.p2;
 
 public class B {
 	private void doStuff(){
-		A b=new A();
+//		A b=new A();
 	}
 }
 

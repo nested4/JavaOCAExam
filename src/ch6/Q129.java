@@ -9,11 +9,11 @@ public class Q129 {
 				int div =0;
 				int ans = num/div;
 			}catch (ArithmeticException ae) {
-				ans = 0;                     //line n1
+				//ans = 0;                     //line n1
 			}catch (Exception e) {
 				System.out.println("Invalid calculation");
 			}
-			System.out.println("Answer = " + ans);  //line n2
+	//		System.out.println("Answer = " + ans);  //line n2
 	         
 		}
 
